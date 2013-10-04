@@ -1,13 +1,35 @@
-A collection of scripts and configuration files that are part of the peopleswifi.org mesh.
+sudowrt is the the sudomesh.org firmware based on OpenWRT.
 
-Dependencies:
+This repository contains all of the files that differ from default OpenWRT. 
 
-kmod-batman-adv
-  kmod-lib-crc16
+It also includes two scripts:
 
-tunneldigger
-  kmod-l2tp
-  kmod-l2tp-eth
-  kmod-l2tp-ip
-  libpthread
-  librt
+  flash_router.sh: Flashes your router with OpenWRT
+  remote_install.sh: Turns your OpenWRT router into a sudowrt router.
+
+This is not the recommended way of installing onto routers for deployment. Rather, it is a way for developers to get started quickly. 
+
+The scripts make the following assumptions:
+
+  That the computer running the scripts have wget and tftp installed.
+
+  That you are installing OpenWRT Attitude Adjustment 12.09
+ 
+  That your router is a Ubiquiti Picostation 2.
+
+  (Yes. We agree that this last one sucks. 
+   Please feel free to improve these scripts.)
+
+How do use the scripts:
+
+1. Run the flash_router script as root:
+
+  sudo ./flash_router.sh
+
+5. Run the remote_install script:
+
+  ./remote_install.sh
+
+The scripts will guide you through the entire process.
+
+Happy Hacking!

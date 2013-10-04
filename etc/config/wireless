@@ -12,7 +12,7 @@ config wifi-iface
 	option encryption 'none'
 	option network 'openmesh'
 	option mode 'ap'
-	option ssid 'sudomesh'
+	option ssid 'peoplesopen.net'
 
 # the adhoc interface for the mesh
 config wifi-iface
@@ -22,7 +22,7 @@ config wifi-iface
 #	option network 'mesh'
 	option mode 'adhoc'
 	option bssid 'CA:FE:C0:DE:F0:0D'
-	option ssid 'sudomesh-backchannel'
+	option ssid 'peoplesopen.net-backchannel'
 
 # the private wpa2 interface
 config wifi-iface
@@ -32,4 +32,4 @@ config wifi-iface
 	option encryption 'psk2'
 	option key 'sudoersudoer'
 	option mode 'ap'
-	option ssid 'juulcave'
+	option ssid 'peoplesprivate'
