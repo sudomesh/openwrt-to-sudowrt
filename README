@@ -1,0 +1,13 @@
+A collection of scripts and configuration files that are part of the peopleswifi.org mesh.
+
+Dependencies:
+
+kmod-batman-adv
+  kmod-lib-crc16
+
+tunneldigger
+  kmod-l2tp
+  kmod-l2tp-eth
+  kmod-l2tp-ip
+  libpthread
+  librt
