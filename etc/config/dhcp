@@ -23,8 +23,8 @@ config dnsmasq
 
 config dhcp meshpool
 	option interface	'openmesh'
-	option start		2
-	option limit		250
+	option start		257
+	option limit		240
 	option leasetime	5m
 	list dhcp_option	'1,255.0.0.0' # subnet mask
 	list dhcp_option	'3,10.42.0.1' # gateway
