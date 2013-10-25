@@ -32,4 +32,10 @@ How do use the scripts:
 
 The scripts will guide you through the entire process.
 
+After you've done the remote install, you'll want to set up the networking rules:
+
+  /etc/init.d/meshrouting
+  /etc/init.d/tunneldigger
+
+
 Happy Hacking!
