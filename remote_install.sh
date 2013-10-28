@@ -39,7 +39,7 @@ PDIR_EXTRA=packages
 URL="http://downloads.openwrt.org/attitude_adjustment/12.09/atheros/generic/packages"
 
 # Packages to fetch and install
-IPKS=("ip_3.3.0-1_atheros.ipk" "kmod-batman-adv_3.3.8+2012.3.0-3_atheros.ipk" "kmod-lib-crc16_3.3.8-1_atheros.ipk" "kmod-l2tp_3.3.8-1_atheros.ipk" "kmod-l2tp-eth_3.3.8-1_atheros.ipk" "kmod-l2tp-ip_3.3.8-1_atheros.ipk" "libpthread_0.9.33.2-1_atheros.ipk" "librt_0.9.33.2-1_atheros.ipk" "nano_2.2.6-1_atheros.ipk" "libncurses_5.7-5_atheros.ipk" "terminfo_5.7-5_atheros.ipk" "libopenssl_1.0.1e-1_atheros.ipk" "zlib_1.2.7-1_atheros.ipk")
+IPKS=("ip_3.3.0-1_atheros.ipk" "kmod-batman-adv_3.3.8+2012.3.0-3_atheros.ipk" "kmod-lib-crc16_3.3.8-1_atheros.ipk" "kmod-l2tp_3.3.8-1_atheros.ipk" "kmod-l2tp-eth_3.3.8-1_atheros.ipk" "kmod-l2tp-ip_3.3.8-1_atheros.ipk" "libpthread_0.9.33.2-1_atheros.ipk" "librt_0.9.33.2-1_atheros.ipk" "nano_2.2.6-1_atheros.ipk" "libncurses_5.7-5_atheros.ipk" "terminfo_5.7-5_atheros.ipk" "libopenssl_1.0.1e-1_atheros.ipk" "zlib_1.2.7-1_atheros.ipk" "luci-lib-json_0.11.1-1_atheros.ipk" "luci-lib-httpclient_0.11.1-1_atheros.ipk" "luci-theme-bootstrap_0.11.1-1_atheros.ipk")
 
 # list of directories or files in current directory that need to
 # be copied to the node after packages are installed
