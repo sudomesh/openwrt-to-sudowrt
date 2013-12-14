@@ -1,4 +1,5 @@
-sudowrt is the the sudomesh.org firmware based on OpenWRT.
+sudowrt is a set of scripts and files that we were using to flash sudomesh settings onto APs. It is mostly deprecated, although it might help some other folks to quickly get a set of config files and packages onto a node without having to build a custom firmware. For the current sudomesh firmware image generator see sudomesh/openwrt-firmware.
+
 
 This repository contains all of the files that differ from default OpenWRT. 
 
